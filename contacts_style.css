@@ -240,6 +240,13 @@ animation: up2 3s;
 
 
 @media only screen and (max-width:480px) {
+  body{
+  background-image:url("contacts_bg.png");
+  background-size:100% 100%;
+ background-repeat:no-repeat;
+ background-position:center;
+    }
+
  
 #back{
   width:15%;
@@ -283,7 +290,7 @@ animation: up2 3s;
 
     #input5{
       width:30%;
-      font-size: 30px;
+      font-size: 20px;
     }
  
 
