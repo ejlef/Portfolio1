@@ -1,0 +1,125 @@
+
+
+body{
+  background-image:url("project_bg.png");
+  background-size:100% 300%;
+  background-repeat:no-repeat;
+}
+
+
+
+
+#project_name{
+  font-size:150px;
+  font-family: f1;
+  margin-left: 30%;
+  text-shadow:3px 3px 10px #00f;
+  margin-top:10%;
+  color:#0ff;
+}
+
+
+@font-face{
+  font-family:f1;
+  src: url("Dreaming_Charlotte.ttf");
+}
+
+
+
+a{
+  text-decoration:none;
+}
+
+
+#cal{
+margin-top:10%;
+  width:300px;
+  height:400px;
+  background-image:url("calculator_pic.jpg");
+  background-size:100% 100%;
+  mix-blend-mode: multiply;
+}
+
+
+#cal_name{
+  font-size:50px;
+  width:35%;
+  font-weight:800;
+  color:#099;
+  text-shadow:2px 2px 5px #0fa;
+}
+
+
+#games{
+  margin-top:10%;
+  width:300px;
+  height:400px;
+  background-image:url("games_pic.jpg");
+  background-size:100% 100%;
+  mix-blend-mode: multiply;
+  border-radius:5%;
+}
+
+
+
+
+
+#games_name{
+  font-size:50px;
+  width:50%;
+  font-weight:800;
+  color:#099;
+  text-shadow:2px 2px 5px #0fa;
+}
+
+
+
+
+
+
+#clock{
+  margin-top:10%;
+  width:300px;
+  height:400px;
+  background-image:url("clock.png");
+  background-size:100% 100%;
+  mix-blend-mode: multiply;
+  border-radius:5%;
+}
+
+
+
+
+
+#clock_name{
+  font-size:50px;
+  width:50%;
+  font-weight:800;
+  color:#099;
+  text-shadow:2px 2px 5px #0fa;
+}
+
+
+
+
+
+
+
+
+#back{
+  font-size:40px;
+  width:20%;
+ box-shadow:2px 2px 5px #0ff;
+  text-align:center;
+  font-weight:800;
+  color:#0ff;
+  position: absolute;
+  top:2%;
+  left:2%;
+}
+
+#back:hover{
+  top:3%;
+  left:2%;
+  text-shadow:2px 2px 5px #a00;
+}

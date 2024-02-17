@@ -1,0 +1,348 @@
+html{
+  width:100%;
+  height:100%; 
+  /*touch-action:none;*/
+}
+
+body{
+  background-image:url("contacts_bg.png");
+  background-size:100% 100%;
+ background-repeat:no-repeat;
+ background-position:center;
+}
+
+
+#back{
+  width:15%;
+  font-size:40px;
+  margin:5%;
+  box-shadow:1px 1px 5px #faa;
+  color:#000;
+  text-align:center;
+  border-radius:5%;
+  animation: opc 5s;
+  text-shadow:1px 1px 5px #f99;
+}
+
+@keyframes opc{
+  from{opacity:0;};
+}
+
+#back:hover{
+  background-color: #00ffff11;
+}
+
+
+#bck_lnk{
+  text-decoration:none;
+}
+
+#btrfly{
+  width:200px;
+  height:200px;
+  background-image:url("butterfly.gif");
+  background-size: 100% 100%;
+  position: fixed;
+  top:19%;
+  left:10%;
+  
+  animation: fly 5s;
+}
+
+@keyframes fly{
+  from{left:-5%;opacity:0;};
+}
+
+
+
+#box1{
+  width:50%;
+  height:100%;
+  box-shadow:0px 0px 10px #eaa;
+  margin-top:40%;
+  margin-left:25%;
+  border-radius: 5%;
+  animation:op 5s;
+}
+@keyframes op{
+  from{opacity:0;};
+}
+
+@font-face{
+ font-family:fonts1;
+  src:url(/Fonts/Dreaming_Charlotte.ttf);
+}
+
+#contacts{
+  font-size:70px;
+  margin-left:12%;
+  font-family:fonts1;
+}
+
+
+#box1 input:focus{
+  border-bottom: 2px solid #f55;
+}
+
+
+#input1,#input2,#input3,#input4{
+  border:none;
+  border-bottom: 2px solid #eaa;
+  width:60%;
+  height:30px;
+ background: transparent;
+  margin-left:20%;
+  font-size:20px;
+  font-weight:500;
+   outline: none;
+}
+
+
+
+
+
+#lab1,#lab2,#lab3,#lab4{
+ font-size:20px;
+ font-weight:1000;
+ font-family:times;
+ margin-left:20%;
+}
+
+ 
+
+
+
+    #input5{
+      width:30%;
+      height:100%;
+      font-size: 55px;
+    margin-left:35%;
+    background-color:transparent; 
+    cursor:pointer;
+ text-align: center;
+ font-family: fonts1;
+    }
+    
+    
+    #input5:hover{
+     color: #ccc;
+      box-shadow:0px 2px 10px #f55;
+      text-shadow:2px 2px 4px #f55;
+    }
+    
+#mail1{
+  width:100px;
+  height:100px;
+ background-image:url("email_pic.png");
+ background-size: 100% 100%;
+ mix-blend-mode: multiply;
+position: absolute;
+bottom: 30%;
+left: 60%;
+animation: up 3s;
+}
+
+#name_mail{
+  position:absolute;
+  bottom:-50%;
+  font-size: 35px;
+  color:#a55;
+  font-weight: 700;
+}
+
+@keyframes up{
+  from{bottom:-5%;opacity: 0;};
+}
+
+
+#name_mail:hover{
+  text-shadow: 1px 1px 5px #00f;
+   font-size: 55px;
+   bottom:-60%;
+   left:-30%;
+   
+}
+
+    
+#facebook{
+  width:100px;
+  height:100px;
+ background-image:url("facebook.png");
+ background-size: 100% 100%;
+ mix-blend-mode: multiply;
+position: absolute;
+bottom: 30%;
+left: 30%;
+animation: up1 3s;
+}
+
+#name_facebook{
+  position:absolute;
+  bottom:-50%;
+  font-size: 35px;
+  color:#a55;
+  font-weight: 700;
+  left:-40%;
+}
+
+@keyframes up1{
+  from{bottom:-5%;opacity: 0;};
+}
+
+
+#name_facebook:hover{
+  text-shadow: 1px 1px 5px #00f;
+   font-size: 55px;
+   bottom:-60%;
+   left:-90%;
+   
+}
+
+    
+#github{
+  width:100px;
+  height:100px;
+ background-image:url("github.png");
+ background-size: 100% 100%;
+ mix-blend-mode: multiply;
+position: absolute;
+bottom: 20%;
+left: 45%;
+animation: up2 3s;
+}
+
+#name_github{
+  position:absolute;
+  bottom:-50%;
+  font-size: 35px;
+  color:#a55;
+  font-weight: 700;
+  left:-10%;
+}
+
+@keyframes up2{
+  from{bottom:-5%;opacity: 0;};
+}
+
+
+#name_github:hover{
+  text-shadow: 1px 1px 5px #00f;
+   font-size: 55px;
+   bottom:-60%;
+   left:-40%;
+   
+}
+
+
+
+
+/*MOBILE ONLY*/
+
+
+@media only screen and (max-width:480px) {
+ 
+#back{
+  width:15%;
+  font-size:20px;
+}
+
+
+#btrfly{
+  width:100px;
+  height:100px;
+  top:8%;
+  left:-5%;
+}
+
+@keyframes fly{
+  from{left:-10%; opacity:0;};
+}
+
+  
+        
+#box1{
+  width:80%;
+  height:100%;
+  margin-top:20%;
+  margin-left:10%;
+}
+
+#contacts{
+  font-size:40px;
+}
+
+
+#input1,#input2,#input3,#input4{
+  height:15px;
+}
+
+
+#lab1,#lab2,#lab3,#lab4{
+ font-size:15px;
+}
+
+    #input5{
+      width:30%;
+      font-size: 30px;
+    }
+ 
+
+#facebook{
+  width:50px;
+  height:50px;
+  bottom:20%;
+}
+
+#name_facebook{
+  font-size: 15px;
+  left:-25%;
+}
+
+#name_facebook:hover{
+   font-size: 20px;
+   left:-50%;
+   
+}
+
+#mail1{
+  width:50px;
+  height:50px;
+  bottom:20%;
+}
+
+#name_mail{
+  font-size: 15px;
+  left:10%;
+}
+
+#name_mail:hover{
+   font-size: 20px;
+   left:-10%;
+}
+
+#github{
+  width:50px;
+  height:50px;
+  bottom:10%;
+}
+
+#name_github{
+  font-size: 15px;
+  left:-5%;
+}
+
+#name_github:hover{
+   font-size: 20px;
+   left:-20%;
+   
+}
+
+ }
+        
+        
+        
+      
+      
+
+
+
