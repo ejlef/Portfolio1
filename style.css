@@ -1,10 +1,10 @@
 /*felje*/
-
+/*
 html{
   width:100%;
   height:100%;
- /* touch-action:none;*/
-}
+ touch-action:none;
+}*/
 
 body{
   background-image:url("bdy.png");
@@ -223,4 +223,110 @@ label{
 .python{width:20%; background-color:#768561;animation:load5 17s;}
 @keyframes load5{
   from{width:0%;};
+}
+
+
+
+/*MOBILE ONLY*/
+
+
+@media only screen and (max-width:480px) {
+  
+  
+  
+  #home{
+  font-size:30px;
+  text-decoration:none;
+  font-family:fonts1;
+  position:relative;
+  left:35%;
+top:40%;
+border-radius:10%;
+color:#0A567A;
+text-shadow: 2px 2px 2px #1D8ABD;
+box-shadow:2px 2px 5px #444;
+animation: hm 3s;
+}
+@keyframes hm{
+  from{top:-20%;};
+}
+#home:hover{
+  background-color:#0a0;
+  box-shadow:2px 2px 5px #444;
+  position:relative;
+  left:35%;
+top:30%;
+}
+
+  
+  #contacts{
+  font-size:30px;
+  text-decoration:none;
+  font-family:fonts1;
+  position:relative;
+  left:40%;
+top:40%;
+border-radius:10%;
+color:#0A567A;
+text-shadow: 2px 2px 2px #1D8ABD;
+box-shadow:2px 2px 5px #444;
+animation: cnt 4s;
+}
+@keyframes cnt{
+  from{top:-20%;};
+}
+#contacts:hover{
+  background-color:#0a0;
+  box-shadow:2px 2px 5px #444;
+  position:relative;
+  left:40%;
+top:30%;
+}
+
+
+#prjct{
+  font-size:30px;
+  text-decoration:none;
+  font-family:fonts1;
+  position:relative;
+  left:45%;
+top:30%;
+border-radius:10%;
+color:#0A567A;
+text-shadow: 2px 2px 2px #1D8ABD;
+box-shadow:2px 2px 5px #444;
+animation: prjct 5s;
+}
+@keyframes prjct{
+  from{top:-20%;};
+}
+#prjct:hover{
+  background-color:#0a0;
+  box-shadow:2px 2px 5px #444;
+  position:relative;
+  left:45%;
+top:40%;
+}
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  body{
+  background-image:url("bdy.png");
+  background-size:100% 100%;
+  background-position:center;
+  background-repeat:no-repeat;
+  animation:delay 3s;
+  
+}
+  
+  
 }

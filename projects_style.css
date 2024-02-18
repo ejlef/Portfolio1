@@ -123,3 +123,42 @@ margin-top:10%;
   left:2%;
   text-shadow:2px 2px 5px #a00;
 }
+
+
+/*MOBILE ONLY*/
+
+
+@media only screen and (max-width:480px) {
+  
+  
+
+#project_name{
+  font-size:50px;
+}
+  
+  #back{
+  font-size:25px;
+  }
+  
+  
+#clock_name{
+  font-size:30px;
+}
+
+#cal_name{
+  position:relative;
+  font-size:30px;
+  left:-5%;
+  margin-top:-15%;
+}
+
+#games_name{
+  
+  font-size:30px;
+
+}
+
+
+
+  
+}
